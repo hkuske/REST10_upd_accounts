@@ -51,7 +51,7 @@ if (($handle = fopen($in_file, "r")) !== FALSE) {
 		$row++;
 
 //EXIT			
-//		if ($row > 3) die();	// STOP for TEST
+		if ($row > 2) die();	// STOP for TEST
 //EXIT
 
 		$num = count($data);
